@@ -1,0 +1,1323 @@
+{
+  "_readme": "OHAS menu. Staff can edit this file without touching code. Switch an item off with \"available\": false. Mark today's bakes with \"todaysBake\": true. A price is only shown on the site when its \"confirmedOn\" date is filled in (YYYY-MM-DD). Allergen notes are only shown when \"allergens.confirmed\" is true. \"art\" and \"tone\" pick the placeholder illustration until a real photo is added in \"photo\" (e.g. { \"src\": \"/photos/apple-bread.webp\", \"width\": 1600, \"height\": 1200 }).",
+  "note": "Our selection rotates daily and changes with the seasons — around 70 baked goods in all. Ask at the counter for today's bakes.",
+  "categories": [
+    {
+      "id": "breads",
+      "label": "Breads",
+      "intro": "Every bread is made using natural, low-temperature fermentation."
+    },
+    {
+      "id": "pastries",
+      "label": "Pastries & Croissants",
+      "intro": "Baked in-house, every day."
+    },
+    {
+      "id": "sandwiches",
+      "label": "Sandwiches",
+      "intro": "Large croissant sandwiches."
+    },
+    {
+      "id": "cakes",
+      "label": "Cakes & Tarts",
+      "intro": "Tarts and cakes from the case, and whole cakes to pre-order for birthdays and celebrations."
+    },
+    {
+      "id": "macarons",
+      "label": "Macarons & Cookies",
+      "intro": "Small things from the counter."
+    },
+    {
+      "id": "coffee",
+      "label": "Signature Coffee",
+      "intro": "Made with Illy coffee — and a few island ideas."
+    },
+    {
+      "id": "coconut",
+      "label": "Coconut Series & Bingsu",
+      "intro": "The Coconut Series, plus Coconut Ube Bingsu — a Korean-style shaved-ice dessert."
+    },
+    {
+      "id": "drinks",
+      "label": "Tea & Other Drinks",
+      "intro": "Classic coffee, teas and something cold."
+    },
+    {
+      "id": "seasonal",
+      "label": "Seasonal",
+      "intro": "Rotating collections through the year.",
+      "emptyMessage": "The seasonal case changes through the year. Ask at the counter, or follow @ohas_saipan for this season's collection."
+    }
+  ],
+  "items": [
+    {
+      "id": "tinian-baguette",
+      "name": "Tinian Baguette",
+      "category": "breads",
+      "description": "A French baguette spiced with Tinian hot peppers and flavored with cod roe.",
+      "available": true,
+      "signature": true,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [],
+      "allergens": {
+        "confirmed": false,
+        "notes": [
+          "Contains fish (cod roe)",
+          "Spicy — Tinian hot peppers"
+        ]
+      },
+      "art": "baguette",
+      "tone": "crust",
+      "photo": {
+        "src": "/photos/tinian-baguette.webp",
+        "width": 1485,
+        "height": 744,
+        "fit": "contain",
+        "bg": "#0a0101"
+      },
+      "photoBrief": "Close-up of the baguette broken open, showing pepper flecks in the crumb. Low side light.",
+      "source": "Marianas Variety, Sept 2023"
+    },
+    {
+      "id": "apple-bread",
+      "name": "Apple Bread",
+      "category": "breads",
+      "description": "A bun shaped like an apple, filled with cream cheese and apple jam.",
+      "available": true,
+      "signature": true,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [],
+      "allergens": {
+        "confirmed": false,
+        "notes": [
+          "Contains dairy (cream cheese)"
+        ]
+      },
+      "art": "apple",
+      "tone": "strawberry",
+      "photo": {
+        "src": "/photos/apple-bread.webp",
+        "width": 1040,
+        "height": 490,
+        "fit": "contain",
+        "bg": "#090000"
+      },
+      "photoBrief": "One whole Apple Bread beside a halved one showing cream cheese and apple jam. Overhead, soft window light.",
+      "source": "Marianas Variety, Sept 2023"
+    },
+    {
+      "available": true,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [
+        {
+          "amount": 4.9,
+          "label": "",
+          "postedOn": "2025-11-11",
+          "source": "OHAS Facebook post",
+          "confirmedOn": null
+        }
+      ],
+      "allergens": {
+        "confirmed": false,
+        "notes": [
+          "Contains fish (pollock roe)"
+        ]
+      },
+      "photoBrief": "",
+      "id": "pollock-roe-bread",
+      "name": "Pollock Roe Bread",
+      "category": "breads",
+      "description": "A golden-baked bread with savory pollock roe (mentaiko).",
+      "art": "croissant",
+      "tone": "crust",
+      "photo": {
+        "src": "/photos/pollock-roe-bread.webp",
+        "width": 875,
+        "height": 700,
+        "fit": "contain",
+        "bg": "#f1e8db"
+      },
+      "source": "OHAS Facebook, Nov 11, 2025"
+    },
+    {
+      "available": true,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [
+        {
+          "amount": 5.9,
+          "label": "",
+          "postedOn": "2025-07-09",
+          "source": "OHAS Facebook post",
+          "confirmedOn": null
+        }
+      ],
+      "allergens": {
+        "confirmed": false,
+        "notes": []
+      },
+      "photoBrief": "",
+      "id": "sourdough-olive-baguette",
+      "name": "French Sourdough Baguette",
+      "category": "breads",
+      "description": "With green and black olives and garlic.",
+      "art": "baguette",
+      "tone": "crust",
+      "photo": {
+        "src": "/photos/sourdough-olive-baguette.webp",
+        "width": 1025,
+        "height": 325,
+        "fit": "contain",
+        "bg": "#e8d4b6"
+      },
+      "source": "OHAS Facebook, Jul 9, 2025"
+    },
+    {
+      "available": true,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [],
+      "allergens": {
+        "confirmed": false,
+        "notes": []
+      },
+      "photoBrief": "",
+      "id": "green-onion-bagel",
+      "name": "Green Onion Bagel",
+      "category": "breads",
+      "description": "",
+      "art": "croissant",
+      "tone": "butter",
+      "photo": {
+        "src": "/photos/green-onion-bagel.webp",
+        "width": 1040,
+        "height": 699,
+        "fit": "contain",
+        "bg": "#090607"
+      },
+      "source": "OHAS Facebook, Sep 27, 2023"
+    },
+    {
+      "available": true,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [],
+      "allergens": {
+        "confirmed": false,
+        "notes": []
+      },
+      "photoBrief": "",
+      "id": "anpan",
+      "name": "OHAS AnPan",
+      "category": "breads",
+      "description": "",
+      "art": "apple",
+      "tone": "crust",
+      "photo": {
+        "src": "/photos/anpan.webp",
+        "width": 772,
+        "height": 580,
+        "fit": "contain",
+        "bg": "#0a0507"
+      },
+      "source": "OHAS Facebook, Sep 26, 2023"
+    },
+    {
+      "available": true,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [],
+      "allergens": {
+        "confirmed": false,
+        "notes": []
+      },
+      "photoBrief": "",
+      "id": "focaccia",
+      "name": "Focaccia",
+      "category": "breads",
+      "description": "Pepperoni focaccia and bacon focaccia.",
+      "art": "baguette",
+      "tone": "butter",
+      "photo": {
+        "src": "/photos/focaccia.webp",
+        "width": 1080,
+        "height": 810
+      },
+      "source": "OHAS Facebook, Aug 28, 2024"
+    },
+    {
+      "id": "croissant",
+      "name": "Croissant",
+      "category": "pastries",
+      "description": "Crisp on the outside, soft and moist inside.",
+      "available": true,
+      "signature": true,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [],
+      "allergens": {
+        "confirmed": false,
+        "notes": []
+      },
+      "art": "croissant",
+      "tone": "butter",
+      "photo": {
+        "src": "/photos/croissant.webp",
+        "width": 1366,
+        "height": 818,
+        "fit": "contain",
+        "bg": "#090607"
+      },
+      "photoBrief": "A croissant torn in half to show the layers, crumbs on the board. Morning backlight.",
+      "source": "Marianas Variety, 2023; visitor descriptions"
+    },
+    {
+      "id": "chocolate-croissant",
+      "name": "Pain au Chocolat",
+      "category": "pastries",
+      "description": "A two-tone croissant dough rolled with chocolate.",
+      "available": true,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [],
+      "allergens": {
+        "confirmed": false,
+        "notes": []
+      },
+      "art": "croissant",
+      "tone": "espresso",
+      "photo": {
+        "src": "/photos/pain-au-chocolat.webp",
+        "width": 960,
+        "height": 900
+      },
+      "photoBrief": "Cross-section showing the chocolate inside, on a dark plate.",
+      "source": "OHAS Facebook, Oct 31, 2023"
+    },
+    {
+      "id": "mont-blanc",
+      "name": "Mont Blanc",
+      "category": "pastries",
+      "description": "A layered pastry with cream and strawberries.",
+      "available": true,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [],
+      "allergens": {
+        "confirmed": false,
+        "notes": []
+      },
+      "art": "layers",
+      "tone": "strawberry",
+      "photo": {
+        "src": "/photos/mont-blanc.webp",
+        "width": 564,
+        "height": 684,
+        "fit": "contain",
+        "bg": "#0c0507"
+      },
+      "photoBrief": "Side view at eye level so every layer, the cream and the strawberries show.",
+      "source": "Marianas Variety, Sept 2023"
+    },
+    {
+      "id": "croissant-sandwich",
+      "name": "Smoked Salmon Croissant",
+      "category": "sandwiches",
+      "description": "A breakfast sandwich — smoked salmon, onion and greens in a croissant.",
+      "available": true,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [],
+      "allergens": {
+        "confirmed": false,
+        "notes": []
+      },
+      "art": "sandwich",
+      "tone": "cream",
+      "photo": {
+        "src": "/photos/smoked-salmon-croissant.webp",
+        "width": 600,
+        "height": 384
+      },
+      "photoBrief": "The sandwich cut on the diagonal, filling facing the camera, on the upstairs table.",
+      "source": "OHAS Facebook, Nov 9, 2023; visitor description Nov 2023"
+    },
+    {
+      "available": true,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [
+        {
+          "amount": 7.9,
+          "label": "",
+          "postedOn": "2025-11-11",
+          "source": "OHAS Facebook post",
+          "confirmedOn": null
+        }
+      ],
+      "allergens": {
+        "confirmed": false,
+        "notes": []
+      },
+      "photoBrief": "",
+      "id": "jambon-beurre",
+      "name": "Jambon-Beurre Sandwich",
+      "category": "sandwiches",
+      "description": "A traditional French baguette sandwich with Parisian ham and butter.",
+      "art": "sandwich",
+      "tone": "cream",
+      "photo": {
+        "src": "/photos/jambon-beurre.webp",
+        "width": 1150,
+        "height": 550,
+        "fit": "contain",
+        "bg": "#edeae4"
+      },
+      "source": "OHAS Facebook, Nov 11, 2025"
+    },
+    {
+      "available": true,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [
+        {
+          "amount": 7.9,
+          "label": "",
+          "postedOn": "2025-11-11",
+          "source": "OHAS Facebook post",
+          "confirmedOn": null
+        }
+      ],
+      "allergens": {
+        "confirmed": false,
+        "notes": [
+          "Contains shellfish (crab)",
+          "Contains egg"
+        ]
+      },
+      "photoBrief": "",
+      "id": "avocado-chili-sandwich",
+      "name": "Avocado Chili Sandwich",
+      "category": "sandwiches",
+      "description": "Chili crab, avocado, bacon, egg and romaine lettuce in a fluffy bun.",
+      "art": "sandwich",
+      "tone": "avocado",
+      "photo": {
+        "src": "/photos/avocado-chili-sandwich.webp",
+        "width": 800,
+        "height": 675,
+        "fit": "contain",
+        "bg": "#edeae4"
+      },
+      "source": "OHAS Facebook, Nov 11, 2025"
+    },
+    {
+      "available": true,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [
+        {
+          "amount": 7.9,
+          "label": "",
+          "postedOn": "2025-07-09",
+          "source": "OHAS Facebook post",
+          "confirmedOn": null
+        }
+      ],
+      "allergens": {
+        "confirmed": false,
+        "notes": []
+      },
+      "photoBrief": "",
+      "id": "banh-mi",
+      "name": "Bánh Mì Sandwich",
+      "category": "sandwiches",
+      "description": "With beef bulgogi.",
+      "art": "sandwich",
+      "tone": "cream",
+      "photo": {
+        "src": "/photos/banh-mi.webp",
+        "width": 1175,
+        "height": 425,
+        "fit": "contain",
+        "bg": "#ead7bb"
+      },
+      "source": "OHAS Facebook, Jul 9, 2025"
+    },
+    {
+      "available": true,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [],
+      "allergens": {
+        "confirmed": false,
+        "notes": []
+      },
+      "photoBrief": "",
+      "id": "croque-monsieur",
+      "name": "Croque Monsieur",
+      "category": "sandwiches",
+      "description": "A breakfast sandwich.",
+      "art": "sandwich",
+      "tone": "butter",
+      "photo": {
+        "src": "/photos/croque-monsieur.webp",
+        "width": 600,
+        "height": 420
+      },
+      "source": "OHAS Facebook, Nov 9, 2023"
+    },
+    {
+      "id": "celebration-cake",
+      "name": "Celebration Cakes",
+      "category": "cakes",
+      "description": "Whole cakes to pre-order for birthdays and celebrations. Regular size 8.5 in.; premium cakes also come in a 14 × 14 in. rectangle.",
+      "available": true,
+      "signature": true,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [
+        {
+          "amount": 49.9,
+          "label": "Regular 8.5 in.",
+          "postedOn": "2025-04-04",
+          "source": "OHAS Facebook post",
+          "confirmedOn": null
+        },
+        {
+          "amount": 47.9,
+          "label": "Regular 8.5 in.",
+          "postedOn": "2025-09-21",
+          "source": "OHAS Facebook post",
+          "confirmedOn": null
+        }
+      ],
+      "allergens": {
+        "confirmed": false,
+        "notes": []
+      },
+      "art": "cake",
+      "tone": "cream",
+      "photo": {
+        "src": "/photos/premium-fruit-cream-cake.webp",
+        "width": 1080,
+        "height": 945
+      },
+      "photoBrief": "A whole decorated cake on a stand, candles unlit, with the counter softly out of focus.",
+      "link": "#cakes",
+      "source": "Marianas Variety, 2023; OHAS Facebook posts"
+    },
+    {
+      "id": "fruit-tart",
+      "name": "OHAS Signature Tarte",
+      "category": "cakes",
+      "description": "Strawberry, mango, blueberry, peach, lemon and grapefruit tarts (as posted in May 2024).",
+      "available": true,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [],
+      "allergens": {
+        "confirmed": false,
+        "notes": []
+      },
+      "art": "tart",
+      "tone": "mango",
+      "photo": {
+        "src": "/photos/signature-tarte.webp",
+        "width": 994,
+        "height": 864
+      },
+      "photoBrief": "A row of tarts in the display case, shot through the glass.",
+      "source": "OHAS Facebook, May 31, 2024"
+    },
+    {
+      "id": "cheesecake",
+      "name": "Cheesecake",
+      "category": "cakes",
+      "description": "",
+      "available": false,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [],
+      "allergens": {
+        "confirmed": false,
+        "notes": []
+      },
+      "art": "slice",
+      "tone": "cream",
+      "photo": null,
+      "photoBrief": "A single slice, side-on, with a fork.",
+      "source": "Visitor reviews — switched off: OHAS posts New York sour cheese cake and Basque cheese cake as whole premium cakes (see Cakes)"
+    },
+    {
+      "available": true,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [],
+      "allergens": {
+        "confirmed": false,
+        "notes": []
+      },
+      "photoBrief": "",
+      "id": "tiramisu",
+      "name": "Scoop Up Tiramisu",
+      "category": "cakes",
+      "description": "",
+      "art": "slice",
+      "tone": "espresso",
+      "photo": {
+        "src": "/photos/tiramisu.webp",
+        "width": 891,
+        "height": 639,
+        "fit": "contain",
+        "bg": "#090607"
+      },
+      "source": "OHAS Facebook, Sep 27, 2023"
+    },
+    {
+      "available": true,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [
+        {
+          "amount": 5.9,
+          "label": "Chocolate",
+          "postedOn": "2025-08-21",
+          "source": "OHAS Facebook post",
+          "confirmedOn": null
+        },
+        {
+          "amount": 4.9,
+          "label": "Strawberry & Blueberry",
+          "postedOn": "2025-08-21",
+          "source": "OHAS Facebook post",
+          "confirmedOn": null
+        }
+      ],
+      "allergens": {
+        "confirmed": false,
+        "notes": []
+      },
+      "photoBrief": "",
+      "id": "verrine-puddings",
+      "name": "Verrine Puddings",
+      "category": "cakes",
+      "description": "Chocolate pudding, and strawberry & blueberry.",
+      "art": "tart",
+      "tone": "strawberry",
+      "photo": {
+        "src": "/photos/verrine-puddings.webp",
+        "width": 653,
+        "height": 562
+      },
+      "source": "OHAS Facebook, Aug 21, 2025"
+    },
+    {
+      "available": true,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [],
+      "allergens": {
+        "confirmed": false,
+        "notes": []
+      },
+      "photoBrief": "",
+      "id": "passion-fruits-passion",
+      "name": "Passion Fruits Passion",
+      "category": "cakes",
+      "description": "",
+      "art": "slice",
+      "tone": "mango",
+      "photo": {
+        "src": "/photos/passion-fruits-passion.webp",
+        "width": 891,
+        "height": 669,
+        "fit": "contain",
+        "bg": "#090607"
+      },
+      "source": "OHAS Facebook, Sep 26, 2023"
+    },
+    {
+      "available": true,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [],
+      "allergens": {
+        "confirmed": false,
+        "notes": []
+      },
+      "photoBrief": "",
+      "id": "flower-blossom-cupcake",
+      "name": "Flower Blossom Cupcake",
+      "category": "cakes",
+      "description": "",
+      "art": "cake",
+      "tone": "strawberry",
+      "photo": {
+        "src": "/photos/flower-blossom-cupcake.webp",
+        "width": 1114,
+        "height": 446,
+        "fit": "contain",
+        "bg": "#090607"
+      },
+      "source": "OHAS Facebook, Sep 27, 2023"
+    },
+    {
+      "id": "macarons",
+      "name": "Assorted Macarons",
+      "category": "macarons",
+      "description": "",
+      "available": true,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [],
+      "allergens": {
+        "confirmed": false,
+        "notes": []
+      },
+      "art": "macaron",
+      "tone": "ube",
+      "photo": null,
+      "photoBrief": "Macarons stacked in a short tower, every color the case has that day.",
+      "source": "Marianas Variety, Sept 2023"
+    },
+    {
+      "id": "cookies",
+      "name": "Cookies",
+      "category": "macarons",
+      "description": "Including raspberry, chocolate and walnut-chocolate marshmallow cookies.",
+      "available": true,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [],
+      "allergens": {
+        "confirmed": false,
+        "notes": []
+      },
+      "art": "cookie",
+      "tone": "crust",
+      "photo": {
+        "src": "/photos/marshmallow-cookies.webp",
+        "width": 248,
+        "height": 410
+      },
+      "photoBrief": "Cookies broken in half on parchment, crumbs scattered.",
+      "source": "OHAS Facebook, Aug 28, 2024; visitor reviews"
+    },
+    {
+      "id": "avocado-coffee",
+      "name": "Avocado Coffee",
+      "category": "coffee",
+      "description": "Avocado, condensed milk, fresh milk, sugar and espresso — inspired by local avocado shakes.",
+      "available": true,
+      "signature": true,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [],
+      "allergens": {
+        "confirmed": false,
+        "notes": [
+          "Contains dairy"
+        ]
+      },
+      "art": "iced",
+      "tone": "avocado",
+      "photo": null,
+      "photoBrief": "The glass on the terrace rail, green layer and espresso layer clearly separated, Beach Road blurred behind.",
+      "source": "Marianas Variety, Sept 2023"
+    },
+    {
+      "id": "coconut-coffee",
+      "name": "Coconut Coffee",
+      "category": "coffee",
+      "alsoIn": [
+        "coconut"
+      ],
+      "description": "A blended drink of coconut milk, espresso, condensed milk and sugar.",
+      "available": true,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [
+        {
+          "amount": 6.9,
+          "label": "",
+          "postedOn": "2026-05-28",
+          "source": "OHAS Facebook post (Coconut Series)",
+          "confirmedOn": null
+        }
+      ],
+      "allergens": {
+        "confirmed": false,
+        "notes": [
+          "Contains dairy (condensed milk)"
+        ]
+      },
+      "art": "coconut",
+      "tone": "coconut",
+      "photo": {
+        "src": "/photos/coconut-coffee.webp",
+        "width": 1311,
+        "height": 1311
+      },
+      "photoBrief": "Blended, frosty glass on white marble with a few coconut flakes.",
+      "source": "Marianas Variety, Sept 2023; OHAS Facebook, May 2026"
+    },
+    {
+      "id": "double-cube-latte",
+      "name": "Double Cube Latte",
+      "category": "coffee",
+      "description": "A latte with frozen coffee cubes that release more coffee flavor as they melt.",
+      "available": true,
+      "signature": true,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [],
+      "allergens": {
+        "confirmed": false,
+        "notes": [
+          "Contains dairy"
+        ]
+      },
+      "art": "cubes",
+      "tone": "espresso",
+      "photo": null,
+      "photoBrief": "Macro of the frozen coffee cubes in milk, melting trails visible. A short video loop would suit this one.",
+      "source": "Marianas Variety, Sept 2023"
+    },
+    {
+      "id": "peanut-butter-coffee",
+      "name": "Peanut Butter Coffee",
+      "category": "coffee",
+      "description": "Special cream, peanut butter, condensed milk, fresh milk and espresso. Sweet and salty.",
+      "available": true,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [],
+      "allergens": {
+        "confirmed": false,
+        "notes": [
+          "Contains peanuts",
+          "Contains dairy"
+        ]
+      },
+      "art": "cup",
+      "tone": "crust",
+      "photo": null,
+      "photoBrief": "Overhead of the cream topping, a spoon of peanut butter beside the cup.",
+      "source": "Marianas Variety, Sept 2023"
+    },
+    {
+      "id": "real-strawberry-latte",
+      "name": "Real Strawberry Latte",
+      "category": "coffee",
+      "description": "Made with fresh strawberries.",
+      "available": true,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [],
+      "allergens": {
+        "confirmed": false,
+        "notes": [
+          "Contains dairy"
+        ]
+      },
+      "art": "iced",
+      "tone": "strawberry",
+      "photo": {
+        "src": "/photos/real-strawberry-latte.webp",
+        "width": 204,
+        "height": 384
+      },
+      "photoBrief": "Side view showing the strawberry layer under the milk, a halved strawberry on the saucer.",
+      "source": "Marianas Variety, Sept 2023"
+    },
+    {
+      "available": true,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [
+        {
+          "amount": 6.9,
+          "label": "",
+          "postedOn": "2025-08-10",
+          "source": "OHAS Facebook post",
+          "confirmedOn": null
+        }
+      ],
+      "allergens": {
+        "confirmed": false,
+        "notes": []
+      },
+      "photoBrief": "",
+      "id": "ube-cream-latte",
+      "name": "Ube Cream Latte",
+      "category": "coffee",
+      "description": "Earthy-sweet ube cream over rich espresso.",
+      "art": "iced",
+      "tone": "ube",
+      "photo": {
+        "src": "/photos/ube-cream-latte.webp",
+        "width": 475,
+        "height": 838
+      },
+      "source": "OHAS Facebook, Aug 10, 2025"
+    },
+    {
+      "id": "coconut-strawberry",
+      "name": "Coconut Strawberry",
+      "category": "coconut",
+      "description": "",
+      "available": true,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [
+        {
+          "amount": 6.9,
+          "label": "",
+          "postedOn": "2026-05-28",
+          "source": "OHAS Facebook post",
+          "confirmedOn": null
+        }
+      ],
+      "allergens": {
+        "confirmed": false,
+        "notes": []
+      },
+      "art": "coconut",
+      "tone": "strawberry",
+      "photo": {
+        "src": "/photos/coconut-strawberry.webp",
+        "width": 1311,
+        "height": 1311
+      },
+      "photoBrief": "The five Coconut Series drinks lined up in a row — one shot for the whole series.",
+      "source": "OHAS Facebook, May 28, 2026"
+    },
+    {
+      "id": "coconut-matcha",
+      "name": "Coconut Matcha",
+      "category": "coconut",
+      "description": "",
+      "available": true,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [
+        {
+          "amount": 6.9,
+          "label": "",
+          "postedOn": "2026-05-28",
+          "source": "OHAS Facebook post",
+          "confirmedOn": null
+        }
+      ],
+      "allergens": {
+        "confirmed": false,
+        "notes": []
+      },
+      "art": "coconut",
+      "tone": "matcha",
+      "photo": {
+        "src": "/photos/coconut-matcha.webp",
+        "width": 1311,
+        "height": 1311
+      },
+      "photoBrief": "Part of the Coconut Series line-up shot.",
+      "source": "OHAS Facebook, May 28, 2026"
+    },
+    {
+      "id": "coconut-ube",
+      "name": "Coconut Ube",
+      "category": "coconut",
+      "description": "",
+      "available": true,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [
+        {
+          "amount": 6.9,
+          "label": "",
+          "postedOn": "2026-05-28",
+          "source": "OHAS Facebook post",
+          "confirmedOn": null
+        }
+      ],
+      "allergens": {
+        "confirmed": false,
+        "notes": []
+      },
+      "art": "coconut",
+      "tone": "ube",
+      "photo": {
+        "src": "/photos/coconut-ube.webp",
+        "width": 1311,
+        "height": 1311
+      },
+      "photoBrief": "Part of the Coconut Series line-up shot.",
+      "source": "OHAS Facebook, May 28, 2026"
+    },
+    {
+      "id": "coconut-mango",
+      "name": "Coconut Mango",
+      "category": "coconut",
+      "description": "",
+      "available": true,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [
+        {
+          "amount": 6.9,
+          "label": "",
+          "postedOn": "2026-05-28",
+          "source": "OHAS Facebook post",
+          "confirmedOn": null
+        }
+      ],
+      "allergens": {
+        "confirmed": false,
+        "notes": []
+      },
+      "art": "coconut",
+      "tone": "mango",
+      "photo": {
+        "src": "/photos/coconut-mango.webp",
+        "width": 1311,
+        "height": 1311
+      },
+      "photoBrief": "Part of the Coconut Series line-up shot.",
+      "source": "OHAS Facebook, May 28, 2026"
+    },
+    {
+      "id": "coconut-ube-bingsu",
+      "name": "Coconut Ube Bingsu",
+      "category": "coconut",
+      "description": "Coconut soft serve, sweet ube drizzle and chewy toppings on soft shaved ice.",
+      "available": true,
+      "signature": true,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [
+        {
+          "amount": 15.9,
+          "label": "",
+          "postedOn": "2026-05-28",
+          "source": "OHAS Facebook post",
+          "confirmedOn": null
+        }
+      ],
+      "allergens": {
+        "confirmed": false,
+        "notes": []
+      },
+      "art": "bingsu",
+      "tone": "ube",
+      "photo": {
+        "src": "/photos/coconut-ube-bingsu.webp",
+        "width": 1352,
+        "height": 1352
+      },
+      "photoBrief": "Three-quarter view of the bingsu bowl, a spoon going in, ube purple against the white of the shaved ice.",
+      "source": "OHAS Instagram, May 27, 2026"
+    },
+    {
+      "id": "classic-coffee",
+      "name": "Classic Coffee",
+      "category": "drinks",
+      "description": "The classic espresso drinks, made with Illy coffee.",
+      "available": true,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [],
+      "allergens": {
+        "confirmed": false,
+        "notes": []
+      },
+      "art": "cup",
+      "tone": "espresso",
+      "photo": {
+        "src": "/photos/classic-coffee.webp",
+        "width": 422,
+        "height": 461
+      },
+      "photoBrief": "Espresso pulling at the machine, crema forming. Shallow depth of field.",
+      "source": "Marianas Variety, Sept 2023"
+    },
+    {
+      "id": "teas",
+      "name": "Teas & Sweetened Herbal Teas",
+      "category": "drinks",
+      "description": "Classic teas, and sweetened herbal teas.",
+      "available": true,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [],
+      "allergens": {
+        "confirmed": false,
+        "notes": []
+      },
+      "art": "tea",
+      "tone": "matcha",
+      "photo": {
+        "src": "/photos/teas.webp",
+        "width": 403,
+        "height": 480
+      },
+      "photoBrief": "A teapot and cup by the window, steam catching the light.",
+      "source": "Marianas Variety, Sept 2023"
+    },
+    {
+      "id": "strawberry-coconut-smoothie",
+      "name": "Strawberry Coconut Smoothie",
+      "category": "drinks",
+      "description": "",
+      "available": true,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [],
+      "allergens": {
+        "confirmed": false,
+        "notes": []
+      },
+      "art": "smoothie",
+      "tone": "strawberry",
+      "photo": null,
+      "photoBrief": "Tall glass with condensation, on the terrace table.",
+      "source": "Visitor reviews — confirm it is still on the menu"
+    },
+    {
+      "id": "affogato",
+      "name": "Ice Cream Affogato",
+      "category": "drinks",
+      "description": "Ice cream with espresso.",
+      "available": true,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [],
+      "allergens": {
+        "confirmed": false,
+        "notes": [
+          "Contains dairy"
+        ]
+      },
+      "art": "affogato",
+      "tone": "espresso",
+      "photo": null,
+      "photoBrief": "The moment the espresso is poured over the ice cream.",
+      "source": "Visitor reviews — confirm it is still on the menu"
+    },
+    {
+      "available": true,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [
+        {
+          "amount": 6.9,
+          "label": "",
+          "postedOn": "2025-08-10",
+          "source": "OHAS Facebook post",
+          "confirmedOn": null
+        }
+      ],
+      "allergens": {
+        "confirmed": false,
+        "notes": []
+      },
+      "photoBrief": "",
+      "id": "ube-milk-tea",
+      "name": "Ube Milk Tea",
+      "category": "drinks",
+      "description": "Earthy-sweet ube cream over creamy milk with lightly fragrant tea.",
+      "art": "iced",
+      "tone": "ube",
+      "photo": {
+        "src": "/photos/ube-milk-tea.webp",
+        "width": 488,
+        "height": 838
+      },
+      "source": "OHAS Facebook, Aug 10, 2025"
+    },
+    {
+      "available": true,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": false,
+      "prices": [
+        {
+          "amount": 5.9,
+          "label": "",
+          "postedOn": "2024-11-01",
+          "source": "OHAS Facebook post",
+          "confirmedOn": null
+        }
+      ],
+      "allergens": {
+        "confirmed": false,
+        "notes": []
+      },
+      "photoBrief": "",
+      "id": "thai-milk-tea",
+      "name": "Thai Milk Tea",
+      "category": "drinks",
+      "description": "Thai Milk Tea, Choco Thai Milk Tea, Coffee Thai Milk and Strawberry Thai Milk — pearls can be added.",
+      "art": "iced",
+      "tone": "mango",
+      "photo": {
+        "src": "/photos/thai-milk-tea.webp",
+        "width": 518,
+        "height": 950
+      },
+      "source": "OHAS Facebook, Nov 1, 2024"
+    },
+    {
+      "id": "love-bloom-macarons",
+      "name": "Love Bloom Macarons",
+      "category": "seasonal",
+      "description": "4 pieces.",
+      "available": false,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": true,
+      "season": "Valentine's 2026",
+      "prices": [
+        {
+          "amount": 25.9,
+          "label": "4 pieces",
+          "postedOn": "2026-02",
+          "source": "OHAS Facebook post (Valentine's 2026)",
+          "confirmedOn": null
+        }
+      ],
+      "allergens": {
+        "confirmed": false,
+        "notes": []
+      },
+      "art": "macaron",
+      "tone": "strawberry",
+      "photo": null,
+      "photoBrief": "",
+      "source": "OHAS Facebook, Feb 2026"
+    },
+    {
+      "id": "triple-heart-collection",
+      "name": "Triple Heart Collection",
+      "category": "seasonal",
+      "description": "",
+      "available": false,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": true,
+      "season": "Valentine's 2026",
+      "prices": [
+        {
+          "amount": 15.9,
+          "label": "",
+          "postedOn": "2026-02",
+          "source": "OHAS Facebook post (Valentine's 2026)",
+          "confirmedOn": null
+        }
+      ],
+      "allergens": {
+        "confirmed": false,
+        "notes": []
+      },
+      "art": "heart",
+      "tone": "strawberry",
+      "photo": null,
+      "photoBrief": "",
+      "source": "OHAS Facebook, Feb 2026"
+    },
+    {
+      "id": "love-on-the-bar",
+      "name": "Love on the Bar",
+      "category": "seasonal",
+      "description": "",
+      "available": false,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": true,
+      "season": "Valentine's 2026",
+      "prices": [
+        {
+          "amount": 8.9,
+          "label": "",
+          "postedOn": "2026-02",
+          "source": "OHAS Facebook post (Valentine's 2026)",
+          "confirmedOn": null
+        }
+      ],
+      "allergens": {
+        "confirmed": false,
+        "notes": []
+      },
+      "art": "heart",
+      "tone": "espresso",
+      "photo": null,
+      "photoBrief": "",
+      "source": "OHAS Facebook, Feb 2026"
+    },
+    {
+      "id": "pink-blossom-cookies",
+      "name": "Pink Blossom Cookies",
+      "category": "seasonal",
+      "description": "",
+      "available": false,
+      "signature": false,
+      "todaysBake": false,
+      "seasonal": true,
+      "season": "Valentine's 2026",
+      "prices": [
+        {
+          "amount": 6.9,
+          "label": "",
+          "postedOn": "2026-02",
+          "source": "OHAS Facebook post (Valentine's 2026)",
+          "confirmedOn": null
+        }
+      ],
+      "allergens": {
+        "confirmed": false,
+        "notes": []
+      },
+      "art": "cookie",
+      "tone": "strawberry",
+      "photo": null,
+      "photoBrief": "",
+      "source": "OHAS Facebook, Feb 2026"
+    }
+  ]
+}

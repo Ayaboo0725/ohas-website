@@ -1,0 +1,445 @@
+{
+  "_readme": "Cakes & celebration orders. Prices only appear on the site once \"confirmedOn\" is filled in. Mark the collection that is in the case right now with \"current\": true; past collections are shown as examples. Order details under \"ordering\" are hidden until \"confirmed\" is true.",
+  "sizes": [
+    {
+      "id": "regular",
+      "label": "Regular",
+      "shape": "round",
+      "inches": 8.5,
+      "display": "8.5 in. round",
+      "note": "The regular cake size."
+    },
+    {
+      "id": "rect",
+      "label": "14 × 14",
+      "shape": "square",
+      "inches": 14,
+      "display": "14 × 14 in. rectangle",
+      "note": "Party size — most premium cakes come in this size."
+    },
+    {
+      "id": "small",
+      "label": "Small",
+      "shape": "round",
+      "inches": 7,
+      "display": "7 in. round",
+      "note": "Some premium cakes also come in a small size."
+    }
+  ],
+  "regularPrices": [
+    {
+      "amount": 49.9,
+      "label": "Regular 8.5 in.",
+      "postedOn": "2025-04-04",
+      "source": "OHAS Facebook post",
+      "confirmedOn": null
+    },
+    {
+      "amount": 47.9,
+      "label": "Regular 8.5 in.",
+      "postedOn": "2025-09-21",
+      "source": "OHAS Facebook post",
+      "confirmedOn": null
+    }
+  ],
+  "ordering": {
+    "confirmed": false,
+    "_note": "CONFIRM BEFORE LAUNCH: notice needed, custom messages/designs, deposit, pickup or delivery. Fill these in and set confirmed: true to show them.",
+    "noticeNeeded": "Regular-size cakes: at least one day ahead, ordered by 6:00 PM. Party-size cakes: at least three days ahead.",
+    "customMessages": "",
+    "deposit": "Party-size cakes need a 50% deposit.",
+    "pickupOrDelivery": "",
+    "unconfirmedMessage": "Notice needed, deposits and pickup are arranged when you call.",
+    "source": "OHAS Premium Cakes post, Aug 11, 2025 — confirm it still applies"
+  },
+  "collections": [
+    {
+      "id": "premium",
+      "title": "OHAS Premium Cakes",
+      "label": "The premium cake line",
+      "note": "As posted by OHAS in August 2025. Most come in regular (8.5 in.) and party size (14 × 14 in.); some also in small (7 in.). Ask which cakes are available on your date.",
+      "season": "Premium cakes",
+      "current": true,
+      "source": "OHAS Instagram post, Aug 11, 2025",
+      "cakes": [
+        {
+          "id": "oreo-layer",
+          "name": "Oreo Layer Cake",
+          "kind": "Small · Regular · Party size",
+          "tone": "espresso",
+          "art": "cake",
+          "photo": {
+            "src": "/photos/cake-oreo-layer.webp",
+            "width": 410,
+            "height": 300,
+            "fit": "contain",
+            "bg": "#f0ece4"
+          },
+          "prices": [
+            {
+              "amount": 35.9,
+              "label": "Small",
+              "postedOn": "2025-08-11",
+              "source": "OHAS Premium Cakes post (Instagram/Facebook)",
+              "confirmedOn": null
+            },
+            {
+              "amount": 48.9,
+              "label": "Regular",
+              "postedOn": "2025-08-11",
+              "source": "OHAS Premium Cakes post (Instagram/Facebook)",
+              "confirmedOn": null
+            },
+            {
+              "amount": 149,
+              "label": "Party size",
+              "postedOn": "2025-08-11",
+              "source": "OHAS Premium Cakes post (Instagram/Facebook)",
+              "confirmedOn": null
+            }
+          ]
+        },
+        {
+          "id": "fresh-fruit-cream",
+          "name": "Seasonal Fresh Fruit Cream Cake",
+          "kind": "Small · Regular · Party size",
+          "tone": "cream",
+          "art": "cake",
+          "photo": {
+            "src": "/photos/cake-fresh-fruit-cream.webp",
+            "width": 380,
+            "height": 290,
+            "fit": "contain",
+            "bg": "#f0ece4"
+          },
+          "prices": [
+            {
+              "amount": 35.9,
+              "label": "Small",
+              "postedOn": "2025-08-11",
+              "source": "OHAS Premium Cakes post (Instagram/Facebook)",
+              "confirmedOn": null
+            },
+            {
+              "amount": 47.9,
+              "label": "Regular",
+              "postedOn": "2025-08-11",
+              "source": "OHAS Premium Cakes post (Instagram/Facebook)",
+              "confirmedOn": null
+            },
+            {
+              "amount": 139,
+              "label": "Party size",
+              "postedOn": "2025-08-11",
+              "source": "OHAS Premium Cakes post (Instagram/Facebook)",
+              "confirmedOn": null
+            }
+          ]
+        },
+        {
+          "id": "blueberry-layer",
+          "name": "Blueberry Layer Cake",
+          "kind": "Small · Regular · Party size",
+          "tone": "ube",
+          "art": "cake",
+          "photo": {
+            "src": "/photos/cake-blueberry-layer.webp",
+            "width": 390,
+            "height": 300,
+            "fit": "contain",
+            "bg": "#f0ece4"
+          },
+          "prices": [
+            {
+              "amount": 35.9,
+              "label": "Small",
+              "postedOn": "2025-08-11",
+              "source": "OHAS Premium Cakes post (Instagram/Facebook)",
+              "confirmedOn": null
+            },
+            {
+              "amount": 46.9,
+              "label": "Regular",
+              "postedOn": "2025-08-11",
+              "source": "OHAS Premium Cakes post (Instagram/Facebook)",
+              "confirmedOn": null
+            },
+            {
+              "amount": 139,
+              "label": "Party size",
+              "postedOn": "2025-08-11",
+              "source": "OHAS Premium Cakes post (Instagram/Facebook)",
+              "confirmedOn": null
+            }
+          ]
+        },
+        {
+          "id": "pecan-brownie",
+          "name": "Pecan Brownie Cake",
+          "kind": "Regular · Party size",
+          "tone": "espresso",
+          "art": "cake",
+          "photo": {
+            "src": "/photos/cake-pecan-brownie.webp",
+            "width": 410,
+            "height": 335,
+            "fit": "contain",
+            "bg": "#f0ece4"
+          },
+          "prices": [
+            {
+              "amount": 49.9,
+              "label": "Regular",
+              "postedOn": "2025-08-11",
+              "source": "OHAS Premium Cakes post (Instagram/Facebook)",
+              "confirmedOn": null
+            },
+            {
+              "amount": 149,
+              "label": "Party size",
+              "postedOn": "2025-08-11",
+              "source": "OHAS Premium Cakes post (Instagram/Facebook)",
+              "confirmedOn": null
+            }
+          ]
+        },
+        {
+          "id": "ny-sour-cheese",
+          "name": "New York Sour Cheese Cake",
+          "kind": "Regular · Party size",
+          "tone": "cream",
+          "art": "slice",
+          "photo": {
+            "src": "/photos/cake-ny-sour-cheese.webp",
+            "width": 390,
+            "height": 335,
+            "fit": "contain",
+            "bg": "#f0ece4"
+          },
+          "prices": [
+            {
+              "amount": 47.9,
+              "label": "Regular",
+              "postedOn": "2025-08-11",
+              "source": "OHAS Premium Cakes post (Instagram/Facebook)",
+              "confirmedOn": null
+            },
+            {
+              "amount": 149,
+              "label": "Party size",
+              "postedOn": "2025-08-11",
+              "source": "OHAS Premium Cakes post (Instagram/Facebook)",
+              "confirmedOn": null
+            }
+          ]
+        },
+        {
+          "id": "carrot",
+          "name": "Carrot Cake",
+          "kind": "Regular · Party size",
+          "tone": "butter",
+          "art": "cake",
+          "photo": {
+            "src": "/photos/cake-carrot.webp",
+            "width": 420,
+            "height": 335,
+            "fit": "contain",
+            "bg": "#f0ece4"
+          },
+          "prices": [
+            {
+              "amount": 46.9,
+              "label": "Regular",
+              "postedOn": "2025-08-11",
+              "source": "OHAS Premium Cakes post (Instagram/Facebook)",
+              "confirmedOn": null
+            },
+            {
+              "amount": 139,
+              "label": "Party size",
+              "postedOn": "2025-08-11",
+              "source": "OHAS Premium Cakes post (Instagram/Facebook)",
+              "confirmedOn": null
+            }
+          ]
+        },
+        {
+          "id": "basque-cheese",
+          "name": "Basque Cheese Cake",
+          "kind": "Regular",
+          "tone": "crust",
+          "art": "cake",
+          "photo": {
+            "src": "/photos/cake-basque-cheese.webp",
+            "width": 400,
+            "height": 320,
+            "fit": "contain",
+            "bg": "#f0ece4"
+          },
+          "prices": [
+            {
+              "amount": 47.9,
+              "label": "Regular",
+              "postedOn": "2025-08-11",
+              "source": "OHAS Premium Cakes post (Instagram/Facebook)",
+              "confirmedOn": null
+            }
+          ]
+        },
+        {
+          "id": "red-velvet",
+          "name": "Red Velvet Cake",
+          "kind": "Regular",
+          "tone": "strawberry",
+          "art": "cake",
+          "photo": {
+            "src": "/photos/cake-red-velvet.webp",
+            "width": 360,
+            "height": 320,
+            "fit": "contain",
+            "bg": "#f0ece4"
+          },
+          "prices": [
+            {
+              "amount": 47.9,
+              "label": "Regular",
+              "postedOn": "2025-08-11",
+              "source": "OHAS Premium Cakes post (Instagram/Facebook)",
+              "confirmedOn": null
+            }
+          ]
+        }
+      ],
+      "desserts": []
+    },
+    {
+      "id": "february-2026",
+      "title": "The February 2026 collection",
+      "season": "Valentine's season, February 2026",
+      "current": false,
+      "source": "OHAS Facebook posts, Feb 2026",
+      "cakes": [
+        {
+          "id": "strawberryholic",
+          "name": "Strawberryholic",
+          "kind": "Strawberry charlotte cake with light mascarpone cream",
+          "tone": "strawberry",
+          "art": "charlotte",
+          "prices": [
+            {
+              "amount": 52.9,
+              "postedOn": "2026-02",
+              "confirmedOn": null
+            }
+          ],
+          "photo": {
+            "src": "/photos/cake-strawberryholic.webp",
+            "width": 1094,
+            "height": 900
+          }
+        },
+        {
+          "id": "strawberry-nest",
+          "name": "Strawberry Nest",
+          "kind": "Chocolate sponge layered with fresh strawberries and chocolate cream",
+          "tone": "espresso",
+          "art": "cake",
+          "prices": [
+            {
+              "amount": 53.9,
+              "postedOn": "2026-02",
+              "confirmedOn": null
+            }
+          ],
+          "photo": {
+            "src": "/photos/cake-strawberry-nest.webp",
+            "width": 1152,
+            "height": 936
+          }
+        },
+        {
+          "id": "eternal-love",
+          "name": "Eternal Love",
+          "kind": "Strawberry mousse cake infused with Tinian hot pepper",
+          "tone": "strawberry",
+          "art": "mousse",
+          "prices": [
+            {
+              "amount": 52.9,
+              "postedOn": "2026-02",
+              "confirmedOn": null
+            }
+          ],
+          "photo": {
+            "src": "/photos/cake-eternal-love.webp",
+            "width": 1094,
+            "height": 900
+          }
+        },
+        {
+          "id": "golden-love",
+          "name": "Golden Love",
+          "kind": "Double chocolate cake",
+          "tone": "espresso",
+          "art": "cake",
+          "prices": [
+            {
+              "amount": 53.9,
+              "postedOn": "2026-02",
+              "confirmedOn": null
+            }
+          ],
+          "photo": {
+            "src": "/photos/cake-golden-love.webp",
+            "width": 513,
+            "height": 463
+          }
+        },
+        {
+          "id": "kiss-me-darling",
+          "name": "Kiss Me Darling",
+          "kind": "New York cheesecake",
+          "tone": "cream",
+          "art": "slice",
+          "prices": [
+            {
+              "amount": 52.9,
+              "postedOn": "2026-02",
+              "confirmedOn": null
+            }
+          ],
+          "photo": {
+            "src": "/photos/cake-kiss-me-darling.webp",
+            "width": 525,
+            "height": 500
+          }
+        },
+        {
+          "id": "be-my-queen",
+          "name": "Be My Queen",
+          "kind": "Milk sponge cake",
+          "tone": "butter",
+          "art": "cake",
+          "prices": [
+            {
+              "amount": 49.9,
+              "postedOn": "2026-02",
+              "confirmedOn": null
+            }
+          ],
+          "photo": {
+            "src": "/photos/cake-be-my-queen.webp",
+            "width": 500,
+            "height": 500
+          }
+        }
+      ],
+      "desserts": [
+        "Love Bloom Macarons (4 pieces)",
+        "Triple Heart Collection",
+        "Love on the Bar",
+        "Pink Blossom Cookies"
+      ]
+    }
+  ]
+}

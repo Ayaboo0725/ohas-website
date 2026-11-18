@@ -1,0 +1,535 @@
+{
+  "_readme": "Where each photo in public/photos came from. All were posted by OHAS on its own Facebook or Instagram, cropped to the product (promo text and prices removed) and converted to WebP. CONFIRM BEFORE LAUNCH: get OHAS permission to use them, or the original files.",
+  "photos": {
+    "tinian-baguette": {
+      "file": "/photos/tinian-baguette.webp",
+      "width": 1485,
+      "height": 744,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2023-09-25",
+        "url": "https://www.facebook.com/photo.php?fbid=122110603382041310"
+      }
+    },
+    "apple-bread": {
+      "file": "/photos/apple-bread.webp",
+      "width": 1040,
+      "height": 490,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2023-09-25",
+        "url": "https://www.facebook.com/photo.php?fbid=122110603424041310"
+      }
+    },
+    "croissant": {
+      "file": "/photos/croissant.webp",
+      "width": 1366,
+      "height": 818,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2023-09-25",
+        "url": "https://www.facebook.com/photo.php?fbid=122110603340041310"
+      }
+    },
+    "pain-au-chocolat": {
+      "file": "/photos/pain-au-chocolat.webp",
+      "width": 960,
+      "height": 900,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2023-10-31",
+        "url": "https://www.facebook.com/photo.php?fbid=122123332562041310"
+      }
+    },
+    "mont-blanc": {
+      "file": "/photos/mont-blanc.webp",
+      "width": 564,
+      "height": 684,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2023-09-26",
+        "url": "https://www.facebook.com/photo.php?fbid=122111188922041310"
+      }
+    },
+    "smoked-salmon-croissant": {
+      "file": "/photos/smoked-salmon-croissant.webp",
+      "width": 600,
+      "height": 384,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2023-11-09",
+        "url": "https://www.facebook.com/photo.php?fbid=122125455884041310"
+      }
+    },
+    "premium-fruit-cream-cake": {
+      "file": "/photos/premium-fruit-cream-cake.webp",
+      "width": 1080,
+      "height": 945,
+      "source": {
+        "platform": "Instagram (@ohas_saipan)",
+        "postedOn": "2025-04-03",
+        "url": "https://www.instagram.com/ohas_saipan/p/DIAV0b_h3rq/"
+      }
+    },
+    "signature-tarte": {
+      "file": "/photos/signature-tarte.webp",
+      "width": 994,
+      "height": 864,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2024-05-31",
+        "url": "https://www.facebook.com/photo.php?fbid=122163014996041310"
+      }
+    },
+    "tiramisu": {
+      "file": "/photos/tiramisu.webp",
+      "width": 891,
+      "height": 639,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2023-09-27",
+        "url": "https://www.facebook.com/photo.php?fbid=122111593802041310"
+      }
+    },
+    "flower-blossom-cupcake": {
+      "file": "/photos/flower-blossom-cupcake.webp",
+      "width": 1114,
+      "height": 446,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2023-09-27",
+        "url": "https://www.facebook.com/photo.php?fbid=122111593868041310"
+      }
+    },
+    "passion-fruits-passion": {
+      "file": "/photos/passion-fruits-passion.webp",
+      "width": 891,
+      "height": 669,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2023-09-26",
+        "url": "https://www.facebook.com/photo.php?fbid=122111188874041310"
+      }
+    },
+    "verrine-puddings": {
+      "file": "/photos/verrine-puddings.webp",
+      "width": 653,
+      "height": 562,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2025-08-21",
+        "url": "https://www.facebook.com/photo.php?fbid=122230162286041310"
+      }
+    },
+    "pollock-roe-bread": {
+      "file": "/photos/pollock-roe-bread.webp",
+      "width": 875,
+      "height": 700,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2025-11-11",
+        "url": "https://www.facebook.com/photo.php?fbid=122239587740041310"
+      }
+    },
+    "green-onion-bagel": {
+      "file": "/photos/green-onion-bagel.webp",
+      "width": 1040,
+      "height": 699,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2023-09-27",
+        "url": "https://www.facebook.com/photo.php?fbid=122111593772041310"
+      }
+    },
+    "anpan": {
+      "file": "/photos/anpan.webp",
+      "width": 772,
+      "height": 580,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2023-09-26",
+        "url": "https://www.facebook.com/photo.php?fbid=122111188832041310"
+      }
+    },
+    "sourdough-olive-baguette": {
+      "file": "/photos/sourdough-olive-baguette.webp",
+      "width": 1025,
+      "height": 325,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2025-07-09",
+        "url": "https://www.facebook.com/photo.php?fbid=122224780442041310"
+      }
+    },
+    "jambon-beurre": {
+      "file": "/photos/jambon-beurre.webp",
+      "width": 1150,
+      "height": 550,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2025-11-11",
+        "url": "https://www.facebook.com/photo.php?fbid=122239587650041310"
+      }
+    },
+    "avocado-chili-sandwich": {
+      "file": "/photos/avocado-chili-sandwich.webp",
+      "width": 800,
+      "height": 675,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2025-11-11",
+        "url": "https://www.facebook.com/photo.php?fbid=122239587698041310"
+      }
+    },
+    "banh-mi": {
+      "file": "/photos/banh-mi.webp",
+      "width": 1175,
+      "height": 425,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2025-07-09",
+        "url": "https://www.facebook.com/photo.php?fbid=122224780460041310"
+      }
+    },
+    "croque-monsieur": {
+      "file": "/photos/croque-monsieur.webp",
+      "width": 600,
+      "height": 420,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2023-11-09",
+        "url": "https://www.facebook.com/photo.php?fbid=122125455926041310"
+      }
+    },
+    "focaccia": {
+      "file": "/photos/focaccia.webp",
+      "width": 1080,
+      "height": 810,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2024-08-28",
+        "url": "https://www.facebook.com/photo.php?fbid=122178937436041310"
+      }
+    },
+    "ube-cream-latte": {
+      "file": "/photos/ube-cream-latte.webp",
+      "width": 475,
+      "height": 838,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2025-08-10",
+        "url": "https://www.facebook.com/photo.php?fbid=122229031550041310"
+      }
+    },
+    "ube-milk-tea": {
+      "file": "/photos/ube-milk-tea.webp",
+      "width": 488,
+      "height": 838,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2025-08-10",
+        "url": "https://www.facebook.com/photo.php?fbid=122229031520041310"
+      }
+    },
+    "thai-milk-tea": {
+      "file": "/photos/thai-milk-tea.webp",
+      "width": 518,
+      "height": 950,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2024-11-01",
+        "url": "https://www.facebook.com/photo.php?fbid=122190343394041310"
+      }
+    },
+    "coconut-matcha": {
+      "file": "/photos/coconut-matcha.webp",
+      "width": 1311,
+      "height": 1311,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2026-05-28",
+        "url": "https://www.facebook.com/photo.php?fbid=122262028070041310"
+      }
+    },
+    "coconut-mango": {
+      "file": "/photos/coconut-mango.webp",
+      "width": 1311,
+      "height": 1311,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2026-05-28",
+        "url": "https://www.facebook.com/photo.php?fbid=122262028022041310"
+      }
+    },
+    "coconut-ube": {
+      "file": "/photos/coconut-ube.webp",
+      "width": 1311,
+      "height": 1311,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2026-05-28",
+        "url": "https://www.facebook.com/photo.php?fbid=122262027980041310"
+      }
+    },
+    "coconut-strawberry": {
+      "file": "/photos/coconut-strawberry.webp",
+      "width": 1311,
+      "height": 1311,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2026-05-28",
+        "url": "https://www.facebook.com/photo.php?fbid=122262027926041310"
+      }
+    },
+    "coconut-coffee": {
+      "file": "/photos/coconut-coffee.webp",
+      "width": 1311,
+      "height": 1311,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2026-05-28",
+        "url": "https://www.facebook.com/photo.php?fbid=122262027884041310"
+      }
+    },
+    "coconut-ube-bingsu": {
+      "file": "/photos/coconut-ube-bingsu.webp",
+      "width": 1352,
+      "height": 1352,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2026-05-28",
+        "url": "https://www.facebook.com/photo.php?fbid=122262027800041310"
+      }
+    },
+    "coconut-series": {
+      "file": "/photos/coconut-series.webp",
+      "width": 1600,
+      "height": 1140,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2026-05-28",
+        "url": "https://www.facebook.com/photo.php?fbid=122262027842041310"
+      }
+    },
+    "real-strawberry-latte": {
+      "file": "/photos/real-strawberry-latte.webp",
+      "width": 204,
+      "height": 384,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2023-10-24",
+        "url": "https://www.facebook.com/photo.php?fbid=122121533972041310"
+      }
+    },
+    "teas": {
+      "file": "/photos/teas.webp",
+      "width": 403,
+      "height": 480,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2023-11-21",
+        "url": "https://www.facebook.com/photo.php?fbid=122128169984041310"
+      }
+    },
+    "classic-coffee": {
+      "file": "/photos/classic-coffee.webp",
+      "width": 422,
+      "height": 461,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2023-11-21",
+        "url": "https://www.facebook.com/photo.php?fbid=122128169942041310"
+      }
+    },
+    "marshmallow-cookies": {
+      "file": "/photos/marshmallow-cookies.webp",
+      "width": 248,
+      "height": 410,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2024-08-28",
+        "url": "https://www.facebook.com/photo.php?fbid=122178937430041310"
+      }
+    },
+    "cake-oreo-layer": {
+      "file": "/photos/cake-oreo-layer.webp",
+      "width": 410,
+      "height": 300,
+      "source": {
+        "platform": "Instagram (@ohas_saipan)",
+        "postedOn": "2025-08-11",
+        "url": "https://www.instagram.com/ohas_saipan/p/DNPFQxgBnhl/"
+      }
+    },
+    "cake-fresh-fruit-cream": {
+      "file": "/photos/cake-fresh-fruit-cream.webp",
+      "width": 380,
+      "height": 290,
+      "source": {
+        "platform": "Instagram (@ohas_saipan)",
+        "postedOn": "2025-08-11",
+        "url": "https://www.instagram.com/ohas_saipan/p/DNPFQxgBnhl/"
+      }
+    },
+    "cake-blueberry-layer": {
+      "file": "/photos/cake-blueberry-layer.webp",
+      "width": 390,
+      "height": 300,
+      "source": {
+        "platform": "Instagram (@ohas_saipan)",
+        "postedOn": "2025-08-11",
+        "url": "https://www.instagram.com/ohas_saipan/p/DNPFQxgBnhl/"
+      }
+    },
+    "cake-pecan-brownie": {
+      "file": "/photos/cake-pecan-brownie.webp",
+      "width": 410,
+      "height": 335,
+      "source": {
+        "platform": "Instagram (@ohas_saipan)",
+        "postedOn": "2025-08-11",
+        "url": "https://www.instagram.com/ohas_saipan/p/DNPFQxgBnhl/"
+      }
+    },
+    "cake-ny-sour-cheese": {
+      "file": "/photos/cake-ny-sour-cheese.webp",
+      "width": 390,
+      "height": 335,
+      "source": {
+        "platform": "Instagram (@ohas_saipan)",
+        "postedOn": "2025-08-11",
+        "url": "https://www.instagram.com/ohas_saipan/p/DNPFQxgBnhl/"
+      }
+    },
+    "cake-carrot": {
+      "file": "/photos/cake-carrot.webp",
+      "width": 420,
+      "height": 335,
+      "source": {
+        "platform": "Instagram (@ohas_saipan)",
+        "postedOn": "2025-08-11",
+        "url": "https://www.instagram.com/ohas_saipan/p/DNPFQxgBnhl/"
+      }
+    },
+    "cake-basque-cheese": {
+      "file": "/photos/cake-basque-cheese.webp",
+      "width": 400,
+      "height": 320,
+      "source": {
+        "platform": "Instagram (@ohas_saipan)",
+        "postedOn": "2025-08-11",
+        "url": "https://www.instagram.com/ohas_saipan/p/DNPFQxgBnhl/"
+      }
+    },
+    "cake-red-velvet": {
+      "file": "/photos/cake-red-velvet.webp",
+      "width": 360,
+      "height": 320,
+      "source": {
+        "platform": "Instagram (@ohas_saipan)",
+        "postedOn": "2025-08-11",
+        "url": "https://www.instagram.com/ohas_saipan/p/DNPFQxgBnhl/"
+      }
+    },
+    "cake-eternal-love": {
+      "file": "/photos/cake-eternal-love.webp",
+      "width": 1094,
+      "height": 900,
+      "source": {
+        "platform": "Instagram (@ohas_saipan)",
+        "postedOn": "2026-02-02",
+        "url": "https://www.instagram.com/ohas_saipan/p/DUSTZH5gRhB/"
+      }
+    },
+    "cake-strawberry-nest": {
+      "file": "/photos/cake-strawberry-nest.webp",
+      "width": 1152,
+      "height": 936,
+      "source": {
+        "platform": "Instagram (@ohas_saipan)",
+        "postedOn": "2026-02-02",
+        "url": "https://www.instagram.com/ohas_saipan/p/DUSTiJGgY9d/"
+      }
+    },
+    "cake-strawberryholic": {
+      "file": "/photos/cake-strawberryholic.webp",
+      "width": 1094,
+      "height": 900,
+      "source": {
+        "platform": "Instagram (@ohas_saipan)",
+        "postedOn": "2026-02-02",
+        "url": "https://www.instagram.com/ohas_saipan/p/DUSTsXEAYdS/"
+      }
+    },
+    "cake-golden-love": {
+      "file": "/photos/cake-golden-love.webp",
+      "width": 513,
+      "height": 463,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2026-02-03",
+        "url": "https://www.facebook.com/photo.php?fbid=122249790758041310"
+      }
+    },
+    "cake-kiss-me-darling": {
+      "file": "/photos/cake-kiss-me-darling.webp",
+      "width": 525,
+      "height": 500,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2026-02-03",
+        "url": "https://www.facebook.com/photo.php?fbid=122249790716041310"
+      }
+    },
+    "cake-be-my-queen": {
+      "file": "/photos/cake-be-my-queen.webp",
+      "width": 500,
+      "height": 500,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2026-02-03",
+        "url": "https://www.facebook.com/photo.php?fbid=122249790716041310"
+      }
+    },
+    "exterior": {
+      "file": "/photos/exterior.webp",
+      "width": 1440,
+      "height": 1267,
+      "source": {
+        "platform": "Instagram (@ohas_saipan)",
+        "postedOn": "2026-04-28",
+        "url": "https://www.instagram.com/ohas_saipan/p/DXq2KYfAQFd/"
+      }
+    },
+    "counter": {
+      "file": "/photos/counter.webp",
+      "width": 756,
+      "height": 248,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2024-02-03",
+        "url": "https://www.facebook.com/photo.php?fbid=122142432032041310"
+      }
+    },
+    "fresh-trays": {
+      "file": "/photos/fresh-trays.webp",
+      "width": 1600,
+      "height": 532,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2023-09-20",
+        "url": "https://www.facebook.com/photo.php?fbid=122105639378041310"
+      }
+    },
+    "bakers": {
+      "file": "/photos/bakers.webp",
+      "width": 1334,
+      "height": 1100,
+      "source": {
+        "platform": "Facebook (OHAS Boulangerie & Café Saipan)",
+        "postedOn": "2025-11-11",
+        "url": "https://www.facebook.com/photo.php?fbid=122239587608041310"
+      }
+    }
+  }
+}

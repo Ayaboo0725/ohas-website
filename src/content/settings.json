@@ -1,0 +1,173 @@
+{
+  "_readme": "Business settings for the OHAS website. Edit values here; the site reads everything from this file. Anything with \"confirmed\": false stays hidden on the live site and is only shown in review mode (add ?review=1 to the URL).",
+  "name": "OHAS Boulangerie & Café",
+  "shortName": "OHAS",
+  "subtitle": "Boulangerie & Café",
+  "brandLine": "French, Fresh, Fit.",
+  "mantra": "Freshness is our recipe.",
+  "siteUrl": "https://ohas.example",
+  "_siteUrl_note": "CONFIRM BEFORE LAUNCH: replace with the real domain. Used for canonical URLs, Open Graph and the sitemap.",
+  "phone": {
+    "display": "(670) 233-6427",
+    "tel": "+16702336427"
+  },
+  "address": {
+    "line1": "Corner of Beach Road & Orchid Street",
+    "locality": "Garapan",
+    "island": "Saipan",
+    "region": "MP",
+    "postalCode": "96950",
+    "country": "US",
+    "landmarks": "North of Joeten Garapan, next to Garapan Elementary School"
+  },
+  "geo": {
+    "lat": 15.2117,
+    "lng": 145.718,
+    "approximate": true
+  },
+  "timeZone": "Pacific/Saipan",
+  "links": {
+    "googleMaps": "https://www.google.com/maps/place/OHAS+Boulangerie+%26+Cafe/data=!4m2!3m1!1s0x66d8b1df959ce6e1:0xa538fbc0b72c7e5d",
+    "mapEmbed": "https://maps.google.com/maps?cid=11905542420079345245&z=17&output=embed",
+    "facebook": "https://www.facebook.com/ohassaipan",
+    "instagram": "https://www.instagram.com/ohas_saipan/",
+    "instagramHandle": "@ohas_saipan",
+    "_mapEmbed_note": "Embeds OHAS’s own Google Maps listing by its ID (same listing as googleMaps). An address search landed in the wrong part of Saipan."
+  },
+  "hours": {
+    "confirmed": false,
+    "confirmedOn": null,
+    "_note": "CONFIRM BEFORE LAUNCH. \"schedule\" is pre-filled with OHAS’s most recent post (Apr 28, 2026); set \"confirmed\": true and \"confirmedOn\" once OHAS confirms. Days use schema.org codes: Mo Tu We Th Fr Sa Su. Times are 24-hour, Saipan time.",
+    "schedule": [
+      {
+        "days": [
+          "Mo",
+          "Tu",
+          "We",
+          "Th",
+          "Fr"
+        ],
+        "opens": "08:00",
+        "closes": "18:00"
+      },
+      {
+        "days": [
+          "Sa",
+          "Su"
+        ],
+        "opens": "08:00",
+        "closes": "19:00"
+      }
+    ],
+    "unconfirmedMessage": "Opening hours are being confirmed. Please call before you visit.",
+    "candidates": [
+      {
+        "value": "Mon–Fri 8:00 a.m. – 6:00 p.m.; Sat–Sun 8:00 a.m. – 7:00 p.m.",
+        "source": "OHAS Instagram post, Apr 28, 2026 (reopening after Typhoon Sinlaku) and current Instagram bio — most recent"
+      },
+      {
+        "value": "7 a.m. – 9 p.m. daily",
+        "source": "Marianas Variety, 2023 opening news"
+      },
+      {
+        "value": "7:30 a.m. – 8:30 p.m. daily",
+        "source": "Instagram bio (@ohas_saipan)"
+      },
+      {
+        "value": "7:00 – 20:30 daily",
+        "source": "Facebook page (via mirror)"
+      },
+      {
+        "value": "\"Closes 6 PM\"",
+        "source": "Google Maps, checked Oct 27, 2026"
+      }
+    ]
+  },
+  "space": {
+    "_note": "Facts about the building. Items with \"confirmed\": false are hidden on the live site until OHAS confirms them (Wi-Fi, parking, payment and accessibility are on the confirm-before-launch list).",
+    "items": [
+      {
+        "label": "Two floors",
+        "detail": "A two-story bakery-café with an upstairs food station",
+        "confirmed": true,
+        "source": "Marianas Variety, 2023"
+      },
+      {
+        "label": "Upstairs seating",
+        "detail": "A second-floor seating area, with a long table for groups",
+        "confirmed": true,
+        "source": "Visitor reviews"
+      },
+      {
+        "label": "Terrace",
+        "detail": "A second-floor terrace for watching Beach Road go by",
+        "confirmed": true,
+        "source": "Visitor reviews"
+      },
+      {
+        "label": "Indoor & outdoor seating",
+        "detail": "",
+        "confirmed": true,
+        "source": "Visitor reviews"
+      },
+      {
+        "label": "Free Wi-Fi",
+        "detail": "",
+        "confirmed": false,
+        "source": "Visitor reviews"
+      },
+      {
+        "label": "Parking at the back",
+        "detail": "",
+        "confirmed": false,
+        "source": "Visitor reviews"
+      },
+      {
+        "label": "Payment methods",
+        "detail": "To be confirmed with OHAS",
+        "confirmed": false,
+        "source": ""
+      },
+      {
+        "label": "Accessibility",
+        "detail": "To be confirmed with OHAS",
+        "confirmed": false,
+        "source": ""
+      }
+    ]
+  },
+  "services": {
+    "_note": "Only switch these on when OHAS actually offers them. Each needs a real URL.",
+    "onlineOrdering": {
+      "enabled": false,
+      "url": ""
+    },
+    "delivery": {
+      "enabled": false,
+      "url": ""
+    },
+    "catering": {
+      "enabled": false,
+      "url": ""
+    },
+    "reservations": {
+      "enabled": false,
+      "url": ""
+    }
+  },
+  "cakeOrderForm": {
+    "enabled": true,
+    "_note": "CONFIRM BEFORE LAUNCH: only keep this on if OHAS wants an order-request form. With \"endpoint\" empty, the form prepares the request for the customer to call or message OHAS (nothing is sent anywhere). Set \"endpoint\" to a form service URL that accepts JSON POST to have requests delivered to OHAS.",
+    "endpoint": ""
+  },
+  "story": {
+    "mentionOperator": false,
+    "operatorName": "E-Land Group",
+    "sisterLocation": {
+      "enabled": false,
+      "_note": "CONFIRM: whether to list the OHAS café at Kensington Hotel Saipan as a sister location, and its hours.",
+      "name": "OHAS at Kensington Hotel Saipan",
+      "area": "San Roque"
+    }
+  }
+}

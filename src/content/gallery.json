@@ -1,0 +1,123 @@
+{
+  "_readme": "The Café gallery. Photos come from OHAS’s own Facebook and Instagram (see photo-sources.json). Entries with \"photo\": null show a labelled placeholder carrying the shot brief. Only real photos of OHAS belong here — no stock or AI images.",
+  "shots": [
+    {
+      "id": "exterior",
+      "title": "The corner on Beach Road",
+      "alt": "The OHAS building on the corner of Beach Road and Orchid Street, Garapan",
+      "brief": "Wide exterior of the corner lot from across Beach Road, early morning light.",
+      "art": "building",
+      "tone": "butter",
+      "span": "wide",
+      "photo": {
+        "src": "/photos/exterior.webp",
+        "width": 1440,
+        "height": 1267
+      }
+    },
+    {
+      "id": "counter",
+      "title": "The counter",
+      "alt": "The ground-floor counter and bakery display cases at OHAS",
+      "brief": "Ground-floor counter and display cases, full and freshly stocked.",
+      "art": "case",
+      "tone": "cream",
+      "span": "wide",
+      "photo": {
+        "src": "/photos/counter.webp",
+        "width": 756,
+        "height": 248
+      }
+    },
+    {
+      "id": "oven",
+      "title": "Fresh trays",
+      "alt": "Trays of fresh pastries at OHAS on opening day",
+      "brief": "A tray of bread leaving the oven, steam visible against a dark background.",
+      "art": "oven",
+      "tone": "crust",
+      "span": "wide",
+      "photo": {
+        "src": "/photos/fresh-trays.webp",
+        "width": 1600,
+        "height": 532
+      }
+    },
+    {
+      "id": "bakers",
+      "title": "In the bakery",
+      "alt": "Hands working flour and dough at OHAS",
+      "brief": "Hands shaping dough on a floured bench. No faces needed.",
+      "art": "dough",
+      "tone": "cream",
+      "span": "tall",
+      "photo": {
+        "src": "/photos/bakers.webp",
+        "width": 1334,
+        "height": 1100
+      }
+    },
+    {
+      "id": "coffee",
+      "title": "The coffee bar",
+      "alt": "A cappuccino made with Illy coffee at OHAS",
+      "brief": "Espresso pulling at the machine with the Illy branding softly visible.",
+      "art": "cup",
+      "tone": "espresso",
+      "span": "square",
+      "photo": {
+        "src": "/photos/classic-coffee.webp",
+        "width": 422,
+        "height": 461
+      }
+    },
+    {
+      "id": "coconut",
+      "title": "The Coconut Series",
+      "alt": "OHAS Coconut Series drinks lined up on a table",
+      "brief": "The five Coconut Series drinks in a row with the bingsu in front.",
+      "art": "coconut",
+      "tone": "ube",
+      "span": "wide",
+      "photo": {
+        "src": "/photos/coconut-series.webp",
+        "width": 1600,
+        "height": 1140
+      }
+    },
+    {
+      "id": "cakes",
+      "title": "Cakes",
+      "alt": "An OHAS premium fresh fruit cream cake",
+      "brief": "This season's cakes in the case, shot level through the glass.",
+      "art": "cake",
+      "tone": "strawberry",
+      "span": "square",
+      "photo": {
+        "src": "/photos/premium-fruit-cream-cake.webp",
+        "width": 1080,
+        "height": 945
+      }
+    },
+    {
+      "id": "upstairs",
+      "title": "Upstairs",
+      "alt": "The second-floor seating area at OHAS with its long table",
+      "brief": "Second floor with the long group table, set and empty, late-morning light.",
+      "art": "table",
+      "tone": "coconut",
+      "span": "wide",
+      "photo": null
+    },
+    {
+      "id": "terrace",
+      "title": "The terrace",
+      "alt": "The second-floor terrace at OHAS overlooking Beach Road",
+      "brief": "Terrace at golden hour, a coffee on the rail, street life below.",
+      "art": "terrace",
+      "tone": "mango",
+      "span": "tall",
+      "photo": null
+    }
+  ]
+}
