@@ -1,4 +1,4 @@
-import { settings, type DaySchedule } from "@/lib/content";
+import { settings, siteUrl, type DaySchedule } from "@/lib/content";
 
 const DAY_URL: Record<string, string> = {
   Mo: "https://schema.org/Monday",
@@ -16,16 +16,16 @@ export function localBusinessJsonLd() {
   const data: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": ["Bakery", "CafeOrCoffeeShop"],
-    "@id": `${s.siteUrl}/#business`,
+    "@id": `${siteUrl}/#business`,
     name: s.name,
     alternateName: s.shortName,
     slogan: s.brandLine,
     description:
       "French-style bakery and café in Garapan, Saipan. Breads, pastries and cakes baked in-house every day, with specialty coffee made with Illy.",
-    url: s.siteUrl,
+    url: `${siteUrl}/`,
     telephone: s.phone.tel,
-    image: [`${s.siteUrl}/photos/exterior.webp`, `${s.siteUrl}/og.png`],
-    logo: `${s.siteUrl}/brand/emblem-dark.webp`,
+    image: [`${siteUrl}/photos/exterior.webp`, `${siteUrl}/og.png`],
+    logo: `${siteUrl}/brand/emblem-dark.webp`,
     servesCuisine: ["French", "Bakery", "Coffee"],
     address: {
       "@type": "PostalAddress",
@@ -42,7 +42,7 @@ export function localBusinessJsonLd() {
     },
     hasMap: s.links.googleMaps,
     sameAs: [s.links.facebook, s.links.instagram],
-    hasMenu: `${s.siteUrl}/#menu`,
+    hasMenu: `${siteUrl}/#menu`,
   };
 
   // Hours are only published once OHAS confirms them

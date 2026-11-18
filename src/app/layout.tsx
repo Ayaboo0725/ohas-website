@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { DM_Sans, Instrument_Serif } from "next/font/google";
 import "./globals.css";
-import { settings } from "@/lib/content";
+import { settings, siteUrl } from "@/lib/content";
 import { jsonLdScript, localBusinessJsonLd } from "@/lib/seo";
 
 const serif = Instrument_Serif({
@@ -23,7 +23,7 @@ const description =
   "Fresh-baked French breads, pastries and cakes, baked in-house every day, with specialty coffee made with Illy. On the corner of Beach Road & Orchid Street, Garapan, Saipan. Pre-order cakes for birthdays and celebrations.";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(settings.siteUrl),
+  metadataBase: new URL(`${siteUrl}/`),
   title,
   description,
   applicationName: settings.name,
@@ -37,21 +37,21 @@ export const metadata: Metadata = {
     "cakes Saipan",
     "coffee Saipan",
   ],
-  alternates: { canonical: "/" },
+  alternates: { canonical: `${siteUrl}/` },
   openGraph: {
     type: "website",
-    url: "/",
+    url: `${siteUrl}/`,
     siteName: settings.name,
     title,
     description,
     locale: "en_US",
-    images: [{ url: "/og.png", width: 1200, height: 630, alt: "OHAS Boulangerie & Café — French, Fresh, Fit." }],
+    images: [{ url: `${siteUrl}/og.png`, width: 1200, height: 630, alt: "OHAS Boulangerie & Café — French, Fresh, Fit." }],
   },
   twitter: {
     card: "summary_large_image",
     title,
     description,
-    images: ["/og.png"],
+    images: [`${siteUrl}/og.png`],
   },
   formatDetection: { telephone: true, address: true },
 };

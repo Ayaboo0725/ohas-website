@@ -6,6 +6,12 @@ Built from the master prompt (research dated Nov 18, 2026). **Not published** �
 - **Stack:** Next.js 16 (App Router, static export) · React 19 · TypeScript · Tailwind CSS 4 · Three.js / React Three Fiber · GSAP + ScrollTrigger + SplitText · Lenis smooth scroll
 - **Output:** plain HTML/CSS/JS in `out/` — can be hosted on any static host when OHAS is ready.
 
+**Live preview:** https://ayaboo0725.github.io/ohas-website/
+
+## Live preview (GitHub Pages)
+
+Every push to `main` rebuilds and redeploys the preview through `.github/workflows/deploy.yml` (Actions → "Deploy preview to GitHub Pages"). The workflow sets `PAGES_BASE_PATH` (the `/ohas-website` sub-path) and `NEXT_PUBLIC_SITE_URL` (used for canonical, Open Graph and the sitemap) from GitHub Pages itself. Local builds leave both empty. If OHAS gets its own domain later, add it under Settings → Pages → Custom domain and update `siteUrl` in `settings.json`.
+
 ## Run it
 
 ```bash

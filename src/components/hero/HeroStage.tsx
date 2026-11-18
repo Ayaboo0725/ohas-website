@@ -3,6 +3,7 @@
 import { Component, useEffect, useRef, useState, type ReactNode } from "react";
 import dynamic from "next/dynamic";
 import { gsap, ScrollTrigger, useGSAP, MOTION_OK } from "@/lib/gsap";
+import { asset } from "@/lib/content";
 
 const CroissantScene = dynamic(() => import("./CroissantScene"), { ssr: false });
 
@@ -114,7 +115,7 @@ export function HeroStage() {
       {/* Rendered still of the same 3D croissant: used without WebGL, for reduced motion and while loading */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="/hero/croissant-still.webp"
+        src={asset("/hero/croissant-still.webp")}
         alt=""
         aria-hidden="true"
         width={1600}

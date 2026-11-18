@@ -1,5 +1,5 @@
 import { Illustration } from "@/components/art/Illustration";
-import type { Photo, Tone } from "@/lib/content";
+import { asset, type Photo, type Tone } from "@/lib/content";
 
 interface MediaProps {
   art: string;
@@ -31,7 +31,7 @@ export function Media({ art, tone, alt, photo, brief, className = "", steam, com
       >
         {/* eslint-disable-next-line @next/next/no-img-element -- static export: pre-sized WebP/AVIF supplied by OHAS */}
         <img
-          src={photo.src}
+          src={asset(photo.src)}
           alt={photo.alt ?? alt}
           width={photo.width}
           height={photo.height}

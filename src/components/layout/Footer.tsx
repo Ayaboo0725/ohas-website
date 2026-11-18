@@ -1,4 +1,4 @@
-import { NAV, fullAddress, settings, telHref } from "@/lib/content";
+import { NAV, asset, fullAddress, settings, telHref } from "@/lib/content";
 import { Hours } from "@/components/layout/Hours";
 import { Wordmark } from "@/components/layout/Wordmark";
 import { ArrowIcon, FacebookIcon, InstagramIcon, PhoneIcon, PinIcon } from "@/components/ui/Icons";
@@ -104,7 +104,7 @@ export function Footer() {
               {/* OHAS emblem, lifted from OHAS's own logo card — replace with the vector file when supplied */}
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/brand/emblem-light.webp"
+                src={asset("/brand/emblem-light.webp")}
                 alt="OHAS Boulangerie & Café emblem"
                 width={420}
                 height={484}

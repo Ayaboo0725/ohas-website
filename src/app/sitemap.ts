@@ -1,8 +1,8 @@
 import type { MetadataRoute } from "next";
-import { settings } from "@/lib/content";
+import { siteUrl } from "@/lib/content";
 
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return [{ url: `${settings.siteUrl}/`, changeFrequency: "weekly", priority: 1 }];
+  return [{ url: `${siteUrl}/`, changeFrequency: "weekly", priority: 1 }];
 }

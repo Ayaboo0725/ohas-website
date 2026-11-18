@@ -124,6 +124,14 @@ export const gallery = galleryJson as unknown as {
 
 /* ---------- Helpers ---------- */
 
+/** Prefix a public/ path with the deploy base path (e.g. /ohas-website on GitHub Pages). */
+export function asset(path: string): string {
+  return path.startsWith("/") ? `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}${path}` : path;
+}
+
+/** Public URL of the site: NEXT_PUBLIC_SITE_URL (set in CI) or settings.siteUrl. No trailing slash. */
+export const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || settings.siteUrl).replace(/\/$/, "");
+
 export const telHref = `tel:${settings.phone.tel}`;
 
 export const fullAddress = `${settings.address.line1}, ${settings.address.locality}, ${settings.address.island}, ${settings.address.region} ${settings.address.postalCode}`;
